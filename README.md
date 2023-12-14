@@ -1,1 +1,1 @@
-# Smart-Campus-app
+# 中职生智慧校园平台
