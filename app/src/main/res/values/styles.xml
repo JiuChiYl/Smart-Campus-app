@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCheckbox" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorControlActivated">@color/ble</item>
+        <item name="colorControlNormal">@color/shenhui</item>
+    </style>
+    <style name="MyThem" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/ble</item>
+    </style>
+</resources>

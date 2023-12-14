@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".new_more_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_left"
+            android:background="@color/ble"/>
+        <TextView
+            android:paddingStart="-50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/ble"
+            android:padding="5dp"
+            android:text="@string/newmorw"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17.5sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="忆百年团史 青春心向党"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/dv4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="\u3000\u3000\u3000为庆祝建团100周年，深入学习贯彻习近平新时代中国特色社会主义思想，加强以爱国主义为核心的民族精神和以改革创新为核心的时代精神教育，进一步引导青年学生厚植知史爱党、知史爱国的理想信念，为实现中华民族伟大复兴凝聚青春正能量，鹤山职校于2022年6月23日举行“忆百年团史青春心向党”主题团史朗诵比赛。比赛过程中，同学们以饱满的热情、声情并茂地诵读经典团史作品，时而慷慨激昂、时而豪情满怀，充分展现了职校青年学子昂扬向上、奋发有为的精神风貌，表达了他们对党的忠诚、对祖国的热爱。本次比赛共评出一等奖2名，二等奖2名，三等奖3名。比赛过后，同学们纷纷表示要从红色经典中汲取能量，传承好中华文化，肩负起新时代青年的使命和担当。"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

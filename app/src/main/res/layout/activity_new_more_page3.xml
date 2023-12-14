@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".new_more_page3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_left"
+            android:background="@color/ble"/>
+        <TextView
+            android:paddingStart="-50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/ble"
+            android:padding="5dp"
+            android:text="@string/newmorw"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17.5sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="召开第十五届学生代表大会"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/dv5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="\u3000\u3000\u3000大会在嘹亮的国歌声中拉开帷幕。学校团委梁天佳书记首先致开幕词，他号召全体学生会干部及各位代表认真贯彻习近平新时代中国特色社会主义思想，以这次学代会的召开为新的起点，团结和带领全校同学，以实际行动创造新的成绩，谱写更加灿烂的青春篇章！学生会代表李永希同学作了2022年上半年学生会工作报告，大会听取并审议通过了工作报告，随后进行了新一届学生会委员会委员投票选举，到会的学生代表秉着公平公正的原则投票选出新一届委员。接着崔志卿副校长、叶武副主任、行政助理廖意文老师为上半年表现优秀的学生会干部颁发“优秀学生干部”奖。"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

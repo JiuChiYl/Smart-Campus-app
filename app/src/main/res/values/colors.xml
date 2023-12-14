@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#A50700</color>
+    <color name="tm_sh">#8A000000</color>
+    <color name="shenhui">#575757</color>
+    <color name="ble">#0099FF</color>
+    <color name="gre">#179A00</color>
+    <color name="hui">#C7C7C7</color>
+    <color name="blue">#0099ff</color>
+    <color name="qianBle">#8ECAFF</color>
+    <color name="shenBle">#004480</color>
+    <color name="qble">#40FFEF</color>
+    <color name="hs">#DCDCDC</color>
+    <color name="tm">#00FFFFFF</color>
+</resources>

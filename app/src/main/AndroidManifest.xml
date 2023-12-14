@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/MyThem"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".scp"
+            android:exported="false" />
+        <activity
+            android:name=".bjm"
+            android:exported="false" />
+        <activity
+            android:name=".dektGd"
+            android:exported="false" />
+        <activity
+            android:name=".wdsc"
+            android:exported="false" />
+        <activity
+            android:name=".sitting"
+            android:exported="false" />
+        <activity
+            android:name=".grda"
+            android:exported="false" />
+        <activity
+            android:name=".xxjl"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dekt"
+            android:exported="false" />
+        <activity
+            android:name=".shsj"
+            android:exported="false" />
+        <activity
+            android:name=".ygxq"
+            android:exported="false" />
+        <activity
+            android:name=".ygfw"
+            android:exported="false" />
+        <activity
+            android:name=".stxq"
+            android:exported="false" />
+        <activity
+            android:name=".sthd"
+            android:exported="false" />
+        <activity
+            android:name=".yuyxq"
+            android:exported="false" />
+        <activity
+            android:name=".swzl"
+            android:exported="false" />
+        <activity
+            android:name=".xlzx"
+            android:exported="false" />
+        <activity
+            android:name=".new_more_page3"
+            android:exported="false" />
+        <activity
+            android:name=".new_more_page"
+            android:exported="false" />
+        <activity
+            android:name=".new_more_page2"
+            android:exported="false" />
+        <activity
+            android:name=".News"
+            android:exported="false" />
+        <activity
+            android:name=".FoCm"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
